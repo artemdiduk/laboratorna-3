@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace lb5_2_
 {
@@ -28,7 +28,7 @@ namespace lb5_2_
 
         public override string ToString()
         {
-            return " радіус підстави R = " + Radius + "\n" + "Висота H = " + Height + "\n" + "Обєм V = " + Volume() + "\n" + "Площа основи S = " + Area() + "\n";
+            return "Радиус основания R = " + Radius + "\n" + "Высота H = " + Height + "\n" + "Объем V = " + Volume() + "\n" + "Площадь основания S = " + Area() + "\n";
         }
     }
 
@@ -46,7 +46,7 @@ namespace lb5_2_
         }
         public override string ToString()
         {
-            return base.ToString() + "Радиус вершини r = " + radius + "\n";
+            return base.ToString() + "Радиус вершины r = " + radius + "\n";
         }
 
     }
@@ -69,3 +69,4 @@ namespace lb5_2_
         }
     }
 }
+
