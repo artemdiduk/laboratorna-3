@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lb5_2_
+namespace laba
 {
     class Cone
     {
